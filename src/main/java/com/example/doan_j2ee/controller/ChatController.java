@@ -11,7 +11,7 @@ import jakarta.validation.Valid;
 
 @RestController
 @RequestMapping("/api/v1/chat")
-@CrossOrigin(origins = {"http://localhost:5173", "http://localhost:3000"})
+@CrossOrigin(origins = {"http://localhost:5173", "http://localhost:5174", "http://localhost:3000"})
 @RequiredArgsConstructor
 public class ChatController {
 
